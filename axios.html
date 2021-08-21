@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+            const url = 'https://jsonplaceholder.typicode.com/todos/1';
+            axios.get(url).then(function(result) {
+                console.log(result.status);
+            }).catch(function(error) {
+                console.log(error);
+            })
+            console.log('바로시작');
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>

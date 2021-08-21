@@ -28,3 +28,16 @@ function q(products) {
             newProducts.push(products[i]);
     }
 }
+
+const grab = {
+    name: 'a',
+    age: 3
+};
+
+const people = ['a', 'b'];
+
+// var {name, age} = grab;
+
+const {name, age} = grab;
+console.log(name, age);
+const [p1, p2] = people;
